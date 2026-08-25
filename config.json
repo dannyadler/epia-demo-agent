@@ -1,0 +1,24 @@
+{
+  "deviceId": "EXO-0001",
+  "connectionClientId": "dev_EXO-0001",
+  "iotEndpoint": "a3ufev4znx2jvr-ats.iot.us-east-1.amazonaws.com",
+  "apiBase": "https://api.dev.epia-neuro.biot-med.com",
+  "ownerOrganizationId": "cd709d4b-1893-48d7-99b8-492a505691f6",
+  "sessionTemplateId": "0d2c6da1-7879-4e92-928e-8aa690138c6e",
+  "geApiVersion": "v3",
+  "factorySwVersion": "exo-fw-1.4.0",
+  "limits": {
+    "stimulationParam1": {
+      "min": 1,
+      "max": 8
+    },
+    "stimulationParam2": {
+      "min": 20,
+      "max": 160
+    }
+  },
+  "statusIntervalSec": 10,
+  "reconnectMinSec": 1,
+  "reconnectMaxSec": 30,
+  "debugShadow": false
+}
